@@ -1,30 +1,30 @@
+/* Provides dimensions for whole page  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: #d9dcd6;
-}
-
+/* Sets padding for header and other text style elements */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
-    
+    color: #ffffff;    
 }
 
+/* Display setting and font size for "Horiseon" */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Color emphasis for "seo" in Horiseon */
 header h1 .seo {
     color: #d9dcd6;
 }
 
+/* Maintains header links within header and provides text style elements */
 header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,6 +33,7 @@ header div {
     font-size: 20px;
 }
 
+/* Aligns header links side-by-side */
 header div ul li {
     list-style-type: none;
     display: inline-block;
@@ -40,21 +41,13 @@ header div ul li {
     
 }
 
-/*header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-
-}*/
-
+/* Changes color and removes underline from hyperlink */
 header a {
     color: #ffffff;
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
-
+/* Sets background image dimensions and position */
 .background {
     height: 800px;
     width: 100%;
@@ -64,23 +57,54 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* Sets dimensions for content blocks in main element */
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* Sets background color and font size for body */
+body {
+    background-color: #d9dcd6;
+    font-size: 16px;
+}
+
+/* Sets dimensions and text styles for content within main element */
+.main-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Orients block to the left  */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Orients block to the right */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sets dimensions for images within main element */
+.main-content img {
+    max-height: 200px;
+}
+
+/* Sets dimensions and font size for text header 2 within main element */
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;   
+}
+
+/* Sets dimensions for aside content as well as text styles and directions */  
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -91,146 +115,31 @@ main {
     background-color: #2589bd;
 }
 
+/* Spaces out paragraphs within aside element */
 .benefit-content p {
     padding-bottom: 40px;
 }
 
+/* Sets dimensions and color for entire aside element */
 .benefit-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-/*.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-
+/* Sets demensions and alignment for aside text header 3 */
 .benefit-content h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}*/
-
+/* Sets dimensions for aside content icons */
 .benefit-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;  
 }
 
-/*.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}*/
-
-.main-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/*.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}*/
-
-.main-content img {
-    max-height: 200px;
-}
-
-/*.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}*/
-
-.main-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;   
-}
-/*.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}*/
-
+/* Sets dimensions and text styles and alignment within footer element */
 footer {
     padding: 30px;
     clear: both;
@@ -238,6 +147,7 @@ footer {
     text-align: center;
 }
 
+/* Sets font size for text header 2 within footer */
 footer h2 {
     font-size: 20px;
 }
